@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Dark-Prince237
-- 👀 I’m interested in linux,web and want to be technology independent
-- 🌱 I’m currently learning web development
+- 👀 I’m interested in web development
 
 
 <!---
