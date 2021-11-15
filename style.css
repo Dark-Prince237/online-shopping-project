@@ -3,7 +3,8 @@
     border:1px solid black;
     width:100%;
     height:50px;
-    background-color:blue;
+    background-color:rgb(40,116,240);
+    
    
 
 }
@@ -45,4 +46,26 @@
     height:10px;
    
     
+}
+
+#title_txtbox1
+{
+    height:30px;
+    width:561px;    
+    position:relative;
+    top:-30px;
+    left:270px;
+}
+
+#title_login
+{
+    position:relative;
+    top:-31px;
+    left:320px;
+    width:120px;
+    height:30px;
+    background-color:white;
+    color:rgb(40,116,240);
+    font-size:15px;
+    font-weight: bolder;
 }
