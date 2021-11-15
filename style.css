@@ -1,0 +1,48 @@
+#titlebar
+{
+    border:1px solid black;
+    width:100%;
+    height:50px;
+    background-color:blue;
+   
+
+}
+
+#title_flip1
+{
+    width:70px;
+    height:20px;
+    padding-top:4px;
+    padding-left:180px;
+    margin-bottom: 10px;
+   
+    
+}
+#title_link1
+{
+    font-size:12px;
+    color:white;
+    text-decoration:none;
+    font-style: italic;
+    margin-left:-75px;
+    font-weight:900;
+    
+  
+}
+
+#title_link2
+{
+    font-size:12px;
+    color:yellow;
+    text-decoration:none;
+    font-style: italic;
+    font-weight:900;
+}
+
+#title_flip2
+{
+    width:10px;
+    height:10px;
+   
+    
+}
