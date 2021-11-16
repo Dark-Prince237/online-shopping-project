@@ -2,6 +2,15 @@
 <html lang="en">
     <head>
         <title>flipkart</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <!--favicon end-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="script.js" defer></script>
         
@@ -10,11 +19,12 @@
 
     <body>
          <div id="titlebar">
-             <img src="images/title/title_flip.png" alt="not available"id="title_flip1">
-             <a href="" id="title_link1">Explore </a><a href="" id="title_link2">plus</a>
+             <a href=
+             ""><img src="images/title/title_flip.png" alt="not available"id="title_flip1"></a>
+             <a href="" id="title_link1">Explore </a><a href="index.html" id="title_link2">plus</a>
              <img src="images/title/title_flip2.png" alt="not available" id="title_flip2">
             <form id="form1">
-                <input type="text" id="title_txtbox1" title="Search for products,brands and more" placeholder="Search for products,brands and more">
+                <input type="text" id="title_txtbox1" title="Search for products,brands and more" placeholder="Search for products,brands and more"><img src="images/title/search.png" id="title_search">
 
                 <input type="submit"id="title_login" value="Login">
                
@@ -22,6 +32,7 @@
             <p id="title_more">More</p><p id="title_more2">^</p>
             <a href="https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click" ><img src="images/title/title_cart.png" alt="" id="title_cart"><p id="title_cart2">Cart</p></a>
          </div>
+         
 
          <div id="content1">
 
@@ -38,15 +49,18 @@
             </div>
 
             <div class="content1_container">
-                <a href="" class="content1_link" ><img src="images/content1/Fashion.png" class="content1_img"><p class="content1_txt">Fashion</p></a>
+                <a href="" class="content1_link" ><img src="images/content1/Fashion.png" class="content1_img"><p class="content1_txt">Fashion</p><p id="image_point_fashion">^</p></a>
             </div>
 
             <div class="content1_container"> 
-                <a href="" class="content1_link"><img src="images/content1/electronics.png" class="content1_img"><p class="content1_txt">Electronics</p></a>
+                <a href="" class="content1_link"><img src="images/content1/electronics.png" class="content1_img"><p class="content1_txt">Electronics</p>
+                    <p id="image_point_electronics">^</p></a>
             </div>
 
             <div class="content1_container">   
-                <a href="" class="content1_link"><img src="images/content1/home.jpg" class="content1_img"><p class="content1_txt">Home</p></a></div>
+                <a href="" class="content1_link"><img src="images/content1/home.jpg" class="content1_img"><p class="content1_txt">Home</p>
+                    <p id="image_point_home">^</p></a>
+            </div>
 
             <div class="content1_container">
                 <a href="" class="content1_link"><img src="images/content1/appliances.png" class="content1_img"><p class="content1_txt">Appliances</p></a>
@@ -61,9 +75,28 @@
                 <a href=""class="content1_link" ><img src="images/content1/beauty.png" class="content1_img"><p class="content1_txt" id="content1_beauty_txt">Beauty,Toys & More</p></a>
             </div>
 
+        </div>
+
+        <div id="slider">
+            <div><img src="images/slider/image4.png" alt="" id="first_slide"class="slider_img"></div>
+           
+            <div class="slider_box"><img src="images/slider/image1.png" alt="" class="slider_img"></div>
+            
+            <div class="slider_box"><img src="images/slider/image2.png" alt="" class="slider_img"></div>
+           
+            <div class="slider_box"><img src="images/slider/image3.png" alt="" class="slider_img"></div>
+            
+            <div class="slider_box"><img src="images/slider/image4.png" alt="" class="slider_img"></div>
+            <div class="slider_box"><img src="images/slider/image5.png" alt="" class="slider_img"></div>
+            
+        </div>
+             <div id="slider_btn_left" onclick="controller(-1)"><img src="images/slider/left.png"></div>
+             <div id="slider_btn_right" onclick="controller(1)"><img src="images/slider/right.png"></div>
+        </div>
+
              
 
-        </div>
+        
          
             
        
