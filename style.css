@@ -1,3 +1,8 @@
+body
+{
+    background-color: rgb(241,243,246);
+}
+
 /* title  */
 #titlebar
 {
@@ -142,6 +147,8 @@
     height:120px;
     border:1px solid grey;
     display: flex;
+    background-color:white;
+    margin-bottom:5px;
     
     
 }
@@ -323,3 +330,123 @@
   
 
 }
+/* slider end */
+
+/* deal of the day */
+
+#deal
+{
+    margin-top:-90px;
+    width:1085px;
+    height:364px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+        
+
+}
+
+
+#deal_sidebar
+{
+    margin-top:-90px;
+    width:234px;
+    height:364px;
+    border:1px solid black;
+    background-color: white;
+    display: inline-block;
+    margin-left:8px;
+
+}
+
+#deal_sidebar img
+{
+    width:100%;
+    height: 100%;
+}
+
+#deal_timer
+{
+    border:1px solid black;
+    width:100%;
+    height:67px;
+    margin-bottom:20px;
+    border:3px solid rgb(241,243,246);
+}
+
+#deal_timer p
+{
+    font-size:30px;
+    font-weight: 600;
+    padding-left:20px;
+    display:inline-block;
+    position: relative;
+    top:-10px;
+}
+
+#deal_watch
+{
+    display:inline-block;
+    padding-left:30px;
+    
+}
+
+#deal_countdown
+{
+    
+    display:inline-block;
+    
+    width:150px;
+    height:31px;
+    margin-left:8px;
+    position: relative;
+    top:-6px;
+}
+
+
+#deal_viewall
+{
+    display: inline-block;
+
+}
+
+#deal_viewall input
+{
+    background-color: rgb(40,116,240);
+    color:white;
+    height:39px;
+    width:100px;
+    position: relative;
+    top:-17px;
+    left:480px;
+}
+
+.deal_img
+{
+    padding-left:120px;
+}
+
+#deal_image1:hover
+{
+    width:150px;
+    height:170px;
+}
+#deal_image2:hover
+{
+    width:150px;
+    height:170px;
+}
+
+#deal_image3:hover
+{
+    width:150px;
+    height:170px;
+}
+
+#deal_image4:hover
+{
+    width:180px;
+    height:170px;
+}
+
+
