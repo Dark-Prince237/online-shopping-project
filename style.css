@@ -190,36 +190,66 @@
 
 .content1_txt:hover
 {
-   color:rgb(71,136,242)
+   color:rgb(71,136,242);
+   
 } 
 
 #image_point_fashion
 {
+    width:10px;
     font-size:13px;
     font-weight: bold;
     transform: rotate(180deg);
     position: relative;
-    
+    left:70px;
     top:-20px;
 }
 
 #image_point_electronics
 {
+    width:10px;
     font-size:13px;
     font-weight: bold;
     transform: rotate(180deg);
     position: relative;
-    left:10px;
+    left:79px;
     top:-19px;
 }
 
 #image_point_home
 {
+    width:10px;
     font-size:13px;
     font-weight: bold;
     transform: rotate(180deg);
     position: relative;
-    left:8px;
+    left:61px;
+    top:-19px;
+}
+
+#image_point_appliances
+{   
+    width:10px; 
+    font-size:13px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: relative;
+    left:79px;
+    top:-19px;
+}
+.image_point:hover
+{
+    color:rgb(40,116,240);
+    
+}
+#image_point_beauty
+{
+    width:10px;
+    font-size:13px;
+    font-weight: bold;
+    transform: rotate(180deg);
+    position: relative;
+    left:106px;
     top:-19px;
 }
 /*contetnt1 end*/
